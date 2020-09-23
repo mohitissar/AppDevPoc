@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppDevPoc</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="routes">Routes</string>
+    <string name="wallet">Wallet</string>
+    <string name="account">Account</string>
+    <string name="plan_trip">Plan Trip</string>
+</resources>

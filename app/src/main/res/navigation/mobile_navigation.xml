@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_plan">
+
+    <fragment
+        android:id="@+id/navigation_plan"
+        android:name="com.appdevpoc.ui.plan.PlanTripFragment"
+        android:label="@string/plan_trip"
+        tools:layout="@layout/fragment_plan" />
+
+    <fragment
+        android:id="@+id/navigation_routes"
+        android:name="com.appdevpoc.ui.routes.RoutesFragment"
+        android:label="@string/routes"
+        tools:layout="@layout/fragment_routes" />
+
+    <fragment
+        android:id="@+id/navigation_wallet"
+        android:name="com.appdevpoc.ui.wallet.WalletFragment"
+        android:label="@string/wallet"
+        tools:layout="@layout/fragment_wallet" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.appdevpoc.ui.account.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
+</navigation>
